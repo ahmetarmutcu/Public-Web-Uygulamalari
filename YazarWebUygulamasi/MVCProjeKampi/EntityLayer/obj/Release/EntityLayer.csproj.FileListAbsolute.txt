@@ -1,0 +1,14 @@
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityLayer.dll.config
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityLayer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityLayer.pdb
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityFramework.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityFramework.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Release\Newtonsoft.Json.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Release\EntityLayer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Release\EntityLayer.pdb

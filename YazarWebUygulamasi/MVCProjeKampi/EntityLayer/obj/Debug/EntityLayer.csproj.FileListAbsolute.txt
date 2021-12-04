@@ -1,0 +1,14 @@
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityLayer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityFramework.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityFramework.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Debug\EntityLayer.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Debug\EntityLayer.pdb
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\Newtonsoft.Json.dll
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\bin\Debug\Newtonsoft.Json.xml
+D:\MVC Kamp\MVCProjeKampi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache

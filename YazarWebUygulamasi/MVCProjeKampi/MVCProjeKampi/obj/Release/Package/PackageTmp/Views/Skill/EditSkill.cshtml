@@ -1,0 +1,56 @@
+﻿@model EntityLayer.Concrete.Skill
+@{
+    ViewBag.Title = "EditSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Yetenek Kartı Güncelleme Sayfası</h2>
+@using (Html.BeginForm("EditSkill", "Skill", FormMethod.Post))
+{
+<div class="form-group">
+    @Html.HiddenFor(x => x.ID)
+    @Html.Label("Ad")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    @Html.Label("Soyad")
+    @Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+    @Html.Label("Görevi")
+    @Html.TextBoxFor(x => x.TitleInfo, new { @class = "form-control" })
+    @Html.Label("Yetenek 1")
+    @Html.TextBoxFor(x => x.Ability1, new { @class = "form-control" })
+    @Html.Label("Yetenek 1 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate1, new { @class = "form-control" })
+    @Html.Label("Yetenek 2")
+    @Html.TextBoxFor(x => x.Ability2, new { @class = "form-control" })
+    @Html.Label("Yetenek 2 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate2, new { @class = "form-control" })
+    @Html.Label("Yetenek 3")
+    @Html.TextBoxFor(x => x.Ability3, new { @class = "form-control" })
+    @Html.Label("Yetenek 3 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate3, new { @class = "form-control" })
+    @Html.Label("Yetenek 4")
+    @Html.TextBoxFor(x => x.Ability4, new { @class = "form-control" })
+    @Html.Label("Yetenek 4 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate4, new { @class = "form-control" })
+    @Html.Label("Yetenek 5")
+    @Html.TextBoxFor(x => x.Ability5, new { @class = "form-control" })
+    @Html.Label("Yetenek 5 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate4, new { @class = "form-control" })
+    @Html.Label("Yetenek 6")
+    @Html.TextBoxFor(x => x.Ability6, new { @class = "form-control" })
+    @Html.Label("Yetenek 6 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate6, new { @class = "form-control" })
+    @Html.Label("Yetenek 7")
+    @Html.TextBoxFor(x => x.Ability7, new { @class = "form-control" })
+    @Html.Label("Yetenek 7 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate7, new { @class = "form-control" })
+    @Html.Label("Yetenek 8")
+    @Html.TextBoxFor(x => x.Ability8, new { @class = "form-control" })
+    @Html.Label("Yetenek 8 Puanı")
+    @Html.TextBoxFor(x => x.AbilityRate8, new { @class = "form-control" })
+    @Html.Label("Facebook Url")
+    @Html.TextBoxFor(x => x.FacebookUrl, new { @class = "form-control" })
+    @Html.Label("Linkedin Url")
+    @Html.TextBoxFor(x => x.LinkedinUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+</div>}
+

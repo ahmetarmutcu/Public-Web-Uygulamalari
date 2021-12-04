@@ -1,0 +1,67 @@
+﻿@using EntityLayer.Test
+@model Istatistik
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br /><br />
+<div class="row">
+    <div class="col-md-3 col-sm-4 col-12">
+        <div class="info-box bg-info">
+            <div class="info-box-content">
+                <span class="info-box-text">Toplam Kategori Sayısı</span>
+                <span class="info-box-number">@Model.TotalCategoryCount</span>
+            </div>
+        </div>
+    </div>
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-12">
+        <div class="info-box bg-success">
+
+            <div class="info-box-content">
+                <span class="info-box-text">Başlık tablosunda "yazılım" kategorisine ait başlık sayısı</span>
+                <span class="info-box-number">@Model.SoftwareCategoryCount</span>
+            </div>
+        </div>
+    </div>
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-12">
+        <div class="info-box bg-warning">
+           
+            <div class="info-box-content">
+                <span class="info-box-text">Yazar adında 'a' harfi geçen yazar sayısı</span>
+                <span class="info-box-number">@Model.WriterCount</span>
+            </div>
+        </div>
+    </div>
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-12">
+        <div class="info-box bg-danger">
+
+            <div class="info-box-content">
+                <span class="info-box-text">En fazla başlığa sahip kategori adı</span>
+                <span class="info-box-number">@Model.MaximumCategoryCountName</span>
+
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+</div>
+
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-12">
+        <div class="info-box bg-gradient-success">
+
+            <div class="info-box-content">
+                <span class="info-box-text">Kategori tablosunda durumu true olan kategoriler ile <br/> false olan kategoriler arasındaki sayısal fark</span>
+                <span class="info-box-number">@Model.DifCategoryStatus</span>
+
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+</div>
+<!-- /.row -->

@@ -1,0 +1,22 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewBag.Title = "WriterProfile";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+<h2>Profilinizi Düzenleyin</h2>
+<div class="form-group">
+    @Html.HiddenFor(x => x.WriterID, new { @class = "form-control" })
+    <br />
+    @Html.Label("Kullanıcı Adı")
+    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterName, null, new { @class = "ValidationMessageForTextColor" })
+    @Html.Label("Şifre")
+    @Html.TextBoxFor(x => x.WriterSurname, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterSurname)
+    @Html.Label("Email")
+    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterMail)
+    <br />
+    <button class="btn btn-success">Değişiklikleri  Uygula</button>
+</div>
+
