@@ -1,0 +1,19 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+<link href="~/style.css" rel="stylesheet" />
+<div id="column-left" class="col-lg-3 column-left">
+    <div class="column-block">
+        <div class="columnblock-title">Kategori</div>
+        <div class="category_block">
+            <ul class="box-category treeview-list treeview">
+                @foreach (var item in Model)
+                {
+                    <li><a href="/Home/ProductByCategoryID/@item.ID">@item.CategoryName</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        @*<div class="item"> <a href="#"><img src="~/Content/_Layout/img/banner/LeftBanner.jpg" alt="Left Banner" class="img-responsive"></a> </div>*@
+    </div>
+</div>

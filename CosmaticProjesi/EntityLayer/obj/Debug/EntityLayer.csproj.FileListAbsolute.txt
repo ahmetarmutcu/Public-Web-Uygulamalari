@@ -1,0 +1,12 @@
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityLayer.dll
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityFramework.dll
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityFramework.xml
+D:\Projeler\CosmaticProjesi\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projeler\CosmaticProjesi\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+D:\Projeler\CosmaticProjesi\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Projeler\CosmaticProjesi\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\Projeler\CosmaticProjesi\EntityLayer\obj\Debug\EntityLayer.dll
+D:\Projeler\CosmaticProjesi\EntityLayer\obj\Debug\EntityLayer.pdb

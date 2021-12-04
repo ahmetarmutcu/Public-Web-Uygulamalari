@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Admin Paneli</title>
+
+    <link rel="stylesheet" href="~/Content/_AdminLayout/css/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/Content/_AdminLayout/css/adminlte.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+</head>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <a href="/Admin/Index" class="brand-link">
+                <img src="~/Content/_AdminLayout/img/logo/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                     style="opacity: .8">
+                <span class="brand-text font-weight-light">Panel</span>
+            </a>
+            <div class="sidebar">
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item has-treeview">
+                            <a href="/Admin/EditSetting" class="nav-link">
+                                <i class="nav-icon fas fa-cog"></i>
+                                <p>
+                                    Ayarlar
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Admin/Category/" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Kategori
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Admin/Product/" class="nav-link">
+                                <i class="nav-icon fas fa-copy"></i>
+                                <p>
+                                    Ürünler
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Admin/ContactIndex/" class="nav-link">
+                                <i class="nav-icon fas fa-edit"></i>
+                                <p>
+                                    İletişim & Mesajlar
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Home/Index" class="nav-link">
+                                <i class="nav-icon fas fa-book"></i>
+                                <p>
+                                    Siteye Git
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item has-treeview">
+                            <a href="/Login/UserLogin/" class="nav-link">
+                                <i class="nav-icon fas fa-sign-out-alt"></i>
+                                <p>
+                                    Çıkış Yap
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="content-wrapper">
+            <div class="content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/_AdminLayout/script/jquery.min.js"></script>
+    <script src="~/Content/_AdminLayout/script/bootstrap.bundle.min.js"></script>
+    <script src="~/Content/_AdminLayout/script/adminlte.js"></script>
+    <script src="~/Content/_AdminLayout/script/Chart.min.js"></script>
+    <script src="~/Content/_AdminLayout/script/demo.js"></script>
+    <script src="~/Content/_AdminLayout/script/jquery.min.js"></script>
+</body>
+</html>
+

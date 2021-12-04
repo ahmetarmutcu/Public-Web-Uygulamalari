@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Ürün Ekleme Sayfası</h2>
+<br />
+@using (Html.BeginForm("AddProduct", "Admin", FormMethod.Post,new {enctype="multipart/form-data"}))
+{
+<div class="form-group">
+    @Html.Label("Ürün Adı")
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control", Autocomplete = "off" })
+    @Html.ValidationMessageFor(x => x.Name)
+    <br />
+    @Html.Label("Ürün Bilgisi")
+    @Html.TextBoxFor(x => x.Content, new { @class = "form-control", Autocomplete = "off" })
+    @Html.ValidationMessageFor(x => x.Content)
+    @*<br />
+    @Html.Label("Ürün Fiyatı")
+    @Html.TextBoxFor(x => x.Price, new { @class = "form-control", Autocomplete = "off" })
+    @Html.ValidationMessageFor(x => x.Price)*@
+    <br />
+    @Html.Label("Kategori")
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.CategoryID)
+    <br />
+    @Html.Label("Ürün Resim 1")
+    <input type="file" name="Img1Path" class="form-control" />
+    <br />
+    @Html.Label("Özel Ürün Seçeneği")
+    <br />
+    <input type="radio" name="CustomProduct" value="true">Evet
+    <input type="radio" name="CustomProduct" value="false" checked="checked">Hayır<br />
+    <br />
+    @Html.Label("Öne Çıkan Ürün Seçeneği")
+    <br />
+    <input type="radio" name="FeaturedProduct" value="true">Evet
+    <input type="radio" name="FeaturedProduct" value="false" checked="checked">Hayır<br />
+    <br />
+
+    <button class="btn btn-info">Ürün Oluştur</button>
+</div>
+}
+
+

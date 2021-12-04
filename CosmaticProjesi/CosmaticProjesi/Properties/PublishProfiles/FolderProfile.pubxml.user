@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\pc\Desktop\CosmeticDeploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BusinessLayer.dll">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.dll.config">
+      <publishTime>06/06/2021 16:47:29</publishTime>
+    </File>
+    <File Include="bin/BusinessLayer.pdb">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/CosmaticProjesi.dll">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/CosmaticProjesi.pdb">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/DataAccessLayer.dll">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/DataAccessLayer.dll.config">
+      <publishTime>05/22/2021 20:11:32</publishTime>
+    </File>
+    <File Include="bin/DataAccessLayer.pdb">
+      <publishTime>06/20/2021 00:11:33</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 20:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 20:38:56</publishTime>
+    </File>
+    <File Include="bin/EntityLayer.dll">
+      <publishTime>06/19/2021 16:46:54</publishTime>
+    </File>
+    <File Include="bin/EntityLayer.dll.config">
+      <publishTime>05/22/2021 20:02:12</publishTime>
+    </File>
+    <File Include="bin/EntityLayer.pdb">
+      <publishTime>06/19/2021 16:46:54</publishTime>
+    </File>
+    <File Include="bin/FluentValidation.dll">
+      <publishTime>06/03/2021 10:01:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>06/18/2021 19:10:53</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/adminlte.min.css">
+      <publishTime>06/12/2021 13:07:07</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/all.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/all.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/brands.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/brands.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/fontawesome.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/fontawesome.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/regular.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/regular.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/solid.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/solid.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/svg-with-js.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/svg-with-js.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/v4-shims.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/css/v4-shims.min.css">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-brands-400.eot">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-brands-400.svg">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-brands-400.ttf">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-brands-400.woff">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-brands-400.woff2">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-regular-400.eot">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-regular-400.svg">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-regular-400.ttf">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-regular-400.woff">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-regular-400.woff2">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-solid-900.eot">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-solid-900.svg">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-solid-900.ttf">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-solid-900.woff">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/fontawesome-free/webfonts/fa-solid-900.woff2">
+      <publishTime>06/12/2021 13:05:36</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/css/icheck-bootstrap.min.css">
+      <publishTime>06/13/2021 20:54:10</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/img/logo/AdminLTELogo.png">
+      <publishTime>06/12/2021 13:11:30</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/adminlte.js">
+      <publishTime>06/12/2021 13:08:20</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/bootstrap.bundle.min.js">
+      <publishTime>06/12/2021 13:08:03</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/Chart.min.js">
+      <publishTime>06/12/2021 13:08:40</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/dashboard3.js">
+      <publishTime>06/12/2021 13:09:16</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/demo.js">
+      <publishTime>06/12/2021 13:08:57</publishTime>
+    </File>
+    <File Include="Content/_AdminLayout/script/jquery.min.js">
+      <publishTime>06/12/2021 13:07:47</publishTime>
+    </File>
+    <File Include="Content/_Layout/css/bootstrap.min.css">
+      <publishTime>06/12/2021 11:30:16</publishTime>
+    </File>
+    <File Include="Content/_Layout/css/javascript/owl.carousel.css">
+      <publishTime>06/12/2021 11:32:22</publishTime>
+    </File>
+    <File Include="Content/_Layout/css/javascript/owl.transitions.css">
+      <publishTime>06/12/2021 11:32:38</publishTime>
+    </File>
+    <File Include="Content/_Layout/css/responsive.css">
+      <publishTime>06/12/2021 11:31:24</publishTime>
+    </File>
+    <File Include="Content/_Layout/css/stylesheet.css">
+      <publishTime>06/12/2021 11:53:13</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/blog_4.jpg">
+      <publishTime>06/19/2021 17:17:26</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/category-banner.jpg">
+      <publishTime>06/19/2021 17:18:57</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/LeftBanner.jpg">
+      <publishTime>06/19/2021 17:19:36</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/subbanner1.jpg">
+      <publishTime>06/12/2021 11:41:36</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/subbanner2.jpg">
+      <publishTime>06/12/2021 11:41:39</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/subbanner3.jpg">
+      <publishTime>06/12/2021 11:41:41</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/banner/subbanner4.jpg">
+      <publishTime>06/19/2021 17:18:09</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/Logo/logo.png">
+      <publishTime>06/06/2021 21:11:46</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/shipping.png">
+      <publishTime>06/12/2021 11:52:57</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/Main-Banner1.jpg">
+      <publishTime>06/12/2021 11:40:07</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/Main-Banner2.jpg">
+      <publishTime>06/12/2021 11:40:10</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/Main-Banner3.jpg">
+      <publishTime>06/12/2021 11:40:12</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/slider1.jpg">
+      <publishTime>06/19/2021 16:34:25</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/slider2.jpg">
+      <publishTime>06/19/2021 16:36:02</publishTime>
+    </File>
+    <File Include="Content/_Layout/img/slider/slider3.jpg">
+      <publishTime>06/19/2021 16:36:57</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/bootstrap.min.js">
+      <publishTime>06/12/2021 11:33:13</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/common.js">
+      <publishTime>06/12/2021 11:33:41</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/css/font-awesome.min.css">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/fonts/fontawesome-webfont862f.eot">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/fonts/fontawesome-webfont862f.svg">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/fonts/fontawesome-webfont862f.ttf">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/fonts/fontawesome-webfont862f.woff">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>06/12/2021 11:46:14</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/global.js">
+      <publishTime>06/12/2021 11:33:48</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/jquery-2.1.1.min.js">
+      <publishTime>06/12/2021 11:33:04</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/jstree.min.js">
+      <publishTime>06/12/2021 11:33:29</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/owl.carousel.min.js">
+      <publishTime>06/12/2021 11:33:59</publishTime>
+    </File>
+    <File Include="Content/_Layout/script/template.js">
+      <publishTime>06/12/2021 11:33:32</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/about-us.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/affiliate.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/blog.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/cart.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/category.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/checkout.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/contact.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/css/bootstrap.min.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/css/responsive.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/css/stylesheet.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/forgetpassword.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/category-banner.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/LeftBanner.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/Main-Banner1.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/Main-Banner2.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/Main-Banner3.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/subbanner1.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/subbanner2.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/subbanner3.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/banners/subbanner4.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/blog/blog_1.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/blog/blog_2.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/blog/blog_3.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/blog/blog_4.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/blog/blog_5.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand1.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand2.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand3.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand4.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand5.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand6.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand7.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand8.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/brand/brand9.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/flags/gb.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/flags/lb.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/Lighthouse.mp4">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/loader.gif">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/logo.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/payment/bank.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/payment/currus.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/payment/discover.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/payment/mastero.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/payment/visa.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/pipe.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/1product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/2product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/3product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/4product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/5product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/6product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/7product50x59.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-1-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-2-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-3-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-4-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-5-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-6-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-7-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/pro-8-220x294.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product1.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product2.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product3.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product4.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product5.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product6.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product7.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/product/product8.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/scroll.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/shipping.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/sprite.png">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/team1.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/team2.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/team3.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/image/team4.jpg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/index.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/bootstrap/js/bootstrap.min.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/common.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/DioProgress.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/css/font-awesome.min.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/fonts/fontawesome-webfont862f.eot">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/fonts/fontawesome-webfont862f.svg">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/fonts/fontawesome-webfont862f.ttf">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/fonts/fontawesome-webfont862f.woff">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/global.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/jquery-2.1.1.min.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/owl-carousel/owl.carousel.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/owl-carousel/owl.carousel.min.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/owl-carousel/owl.transitions.css">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/template_js/jstree.min.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/javascript/template_js/template.js">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/login.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/product.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/register.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="CosmaticTemplate/singale-blog.html">
+      <publishTime>05/17/2021 22:14:38</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/17/2021 22:07:27</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>06/20/2021 00:07:54</publishTime>
+    </File>
+    <File Include="Views/Admin/AddCategory.cshtml">
+      <publishTime>06/08/2021 22:39:20</publishTime>
+    </File>
+    <File Include="Views/Admin/AddProduct.cshtml">
+      <publishTime>06/19/2021 23:07:16</publishTime>
+    </File>
+    <File Include="Views/Admin/Category.cshtml">
+      <publishTime>06/19/2021 08:31:37</publishTime>
+    </File>
+    <File Include="Views/Admin/ContactIndex.cshtml">
+      <publishTime>06/19/2021 15:52:24</publishTime>
+    </File>
+    <File Include="Views/Admin/ContactPartialLeftMenu.cshtml">
+      <publishTime>06/17/2021 21:39:13</publishTime>
+    </File>
+    <File Include="Views/Admin/EditCategory.cshtml">
+      <publishTime>06/08/2021 22:39:24</publishTime>
+    </File>
+    <File Include="Views/Admin/EditProduct.cshtml">
+      <publishTime>06/19/2021 23:06:51</publishTime>
+    </File>
+    <File Include="Views/Admin/EditSetting.cshtml">
+      <publishTime>06/12/2021 09:43:25</publishTime>
+    </File>
+    <File Include="Views/Admin/GetContactDetail.cshtml">
+      <publishTime>06/17/2021 21:38:11</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>06/19/2021 15:44:04</publishTime>
+    </File>
+    <File Include="Views/Admin/Product.cshtml">
+      <publishTime>06/19/2021 23:06:27</publishTime>
+    </File>
+    <File Include="Views/Admin/UploadProductImage.cshtml">
+      <publishTime>06/19/2021 23:04:09</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>06/19/2021 17:17:43</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>06/19/2021 16:06:31</publishTime>
+    </File>
+    <File Include="Views/Home/CustomProducts.cshtml">
+      <publishTime>06/19/2021 22:49:44</publishTime>
+    </File>
+    <File Include="Views/Home/FeaturedProduct.cshtml">
+      <publishTime>06/19/2021 22:51:43</publishTime>
+    </File>
+    <File Include="Views/Home/FooterAddressPartial.cshtml">
+      <publishTime>06/11/2021 22:24:08</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/19/2021 22:46:01</publishTime>
+    </File>
+    <File Include="Views/Home/LeftHeaderPartial.cshtml">
+      <publishTime>06/11/2021 22:22:06</publishTime>
+    </File>
+    <File Include="Views/Home/LeftProductCategory.cshtml">
+      <publishTime>06/20/2021 00:08:01</publishTime>
+    </File>
+    <File Include="Views/Home/Product.cshtml">
+      <publishTime>06/12/2021 10:19:06</publishTime>
+    </File>
+    <File Include="Views/Home/ProductByCategoryID.cshtml">
+      <publishTime>06/19/2021 23:51:02</publishTime>
+    </File>
+    <File Include="Views/Home/ProductDetailByCategoryID.cshtml">
+      <publishTime>06/20/2021 00:10:52</publishTime>
+    </File>
+    <File Include="Views/Home/RecentlyAddedProducts.cshtml">
+      <publishTime>06/19/2021 22:51:21</publishTime>
+    </File>
+    <File Include="Views/Home/SocialMediaPartial.cshtml">
+      <publishTime>06/11/2021 22:27:51</publishTime>
+    </File>
+    <File Include="Views/Home/TitlePartial.cshtml">
+      <publishTime>06/11/2021 22:20:26</publishTime>
+    </File>
+    <File Include="Views/Login/UserLogin.cshtml">
+      <publishTime>06/18/2021 20:18:56</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>06/17/2021 21:41:14</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/19/2021 17:23:23</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/17/2021 22:07:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/19/2021 16:46:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿@model EntityLayer.Concrete.User
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Profil</h2>
+<div class="form-group">
+    @Html.HiddenFor(x => x.ID, new { @class = "form-control" })
+    <br />
+    @Html.Label("Kullanıcı adı")
+    <input type="text" value="@Html.DisplayFor(x=>x.Username)" class="form-control col-lg-4" />
+    @Html.Label("Şifre")
+    <input type="text" value="@Html.DisplayFor(x => x.Password)" class="form-control col-lg-4" />
+    @Html.Label("Email")
+    <input type="text" value="@Html.DisplayFor(x => x.Email)" class="form-control col-lg-4" />
+    <br />
+</div>
+
+

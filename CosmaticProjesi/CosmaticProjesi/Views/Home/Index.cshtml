@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="mainbanner">
+    <div id="main-banner" class="owl-carousel home-slider">
+        <div class="item"> <a href="#"><img src="~/Content/_Layout/img/slider/slider1.jpg" alt="main-banner1" class="img-responsive"></a> </div>
+        <div class="item"> <a href="#"><img src="~/Content/_Layout/img/slider/slider2.jpg" alt="main-banner2" class="img-responsive"></a> </div>
+        <div class="item"> <a href="#"><img src="~/Content/_Layout/img/slider/slider3.jpg" alt="main-banner3" class="img-responsive"></a> </div>
+    </div>
+</div>
+<div class="container">
+    @*<div class="row">
+        <div class="cms_banner">
+            <div class="col-md-4 cms-banner-left"><a href="/Home/Index/"><img alt="#" src="~/Content/_Layout/img/banner/subbanner1.jpg"></a> </div>
+            <div class="col-md-4 cms-banner-middle"><a href="/Home/Index/"><img alt="#" src="~/Content/_Layout/img/banner/subbanner2.jpg"></a> </div>
+            <div class="col-md-4 cms-banner-right"><a href="/Home/Index/"><img alt="#" src="~/Content/_Layout/img/banner/subbanner3.jpg"></a> </div>
+        </div>
+    </div>*@
+    <div class="row">
+        <div id="content" class="col-sm-12">
+            <div class="customtab">
+                <div id="tabs" class="customtab-wrapper">
+                    <ul class='customtab-inner'>
+                        <li class='tab'><a href="#tab-latest">Son Ekleneler</a></li>
+                        <li class='tab'><a href="#tab-special">Özel</a></li>
+                    </ul>
+                </div>
+
+                @Html.Action("RecentlyAddedProducts", "Home")
+                @Html.Action("CustomProducts", "Home")
+                @*<div id="subbanner4" class="banner">
+                    <div class="item"> <a href="/Home/Index"><img src="~/Content/_Layout/img/banner/subbanner4.jpg" alt="Sub Banner4" class="img-responsive"></a> </div>
+                </div>*@
+                <h3 class="productblock-title">Öne Çıkan</h3>
+                @Html.Action("FeaturedProduct", "Home")
+            </div>
+        </div>
+    </div>
+</div>
+

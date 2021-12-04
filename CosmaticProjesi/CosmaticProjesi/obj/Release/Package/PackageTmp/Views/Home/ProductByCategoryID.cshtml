@@ -1,0 +1,64 @@
+﻿@using EntityLayer.Concrete
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Product>
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <ul class="breadcrumb">
+        <li><a href="/Home/Index"><i class="fa fa-home"></i></a></li>
+        <li><a href="/Home/ProductByCategoryID">Ürünler</a></li>
+    </ul>
+    <div class="row">
+        @Html.Action("LeftProductCategory", "Home")
+        <div id="content" class="col-sm-9">
+            <h2 class="category-title">ÜRÜNLER</h2>
+            <div class="row category-banner">
+                @*<div class="col-sm-12 category-image"><img src="~/Content/_Layout/img/banner/category-banner.jpg" alt="Urunler" title="Urunler" class="img-thumbnail"></div>*@
+                <div class="col-sm-12 category-desc">Ürünlerimiz burada yer almaktadır.Detaylı bilgi almak için bize ulaşabilirsiniz.</div>
+            </div>
+            <div class="category-page-wrapper">
+                <div class="col-md-6 list-grid-wrapper">
+                    <div class="btn-group btn-list-grid">
+                        <button type="button" id="list-view" class="btn btn-default list" data-toggle="tooltip" title="List"><i class="fa fa-th-list"></i></button>
+                        <button type="button" id="grid-view" class="btn btn-default grid" data-toggle="tooltip" title="Grid"><i class="fa fa-th"></i></button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="grid-list-wrapper">
+                @foreach (var item in Model)
+                {
+                    <div class="product-layout product-list col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="product-thumb">
+                            <div class="image product-imageblock">
+                                <a href="/Home/ProductDetailByCategoryID/@item.ID"> <img src="@item.Img1Path" alt="@item.Name" title="@item.Name" class="img-responsive" style="width:220px;height:294px"> </a>
+                                <div class="button-group">
+                                    <button type="button" class="compare" data-toggle="tooltip" title="Göster"><i class="fa fa-exchange"></i></button>
+                                </div>
+                            </div>
+                            <div class="caption product-detail">
+                                <h4 class="product-name"> <a href="/Home/ProductDetailByCategoryID/@item.ID" title="@item.Name">@item.Name</a> </h4>
+                                <p class="product-desc">
+                                    @item.Content
+                                </p>
+                                @*<p class="price product-price">@item.Price TL<span class="price-tax"></span> </p>*@
+                                <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <div class="category-page-wrapper">
+                    <div class="result-inner">Göster 1 to 16</div>
+                    <div class="pagination-inner">
+                        <ul class="pagination">
+                            @Html.PagedListPager((IPagedList)Model, page => Url.Action("ProductByCategoryID", new { page }))
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewBag.Title = "UploadProductImage";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Ürün Resimi Düzenle</h2>
+<br />
+<h3><b>Ürün Adı: @Html.DisplayFor(x=>x.Name)</b></h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Resim</th>
+        <th>Silme  İşlemi</th>
+        <th>Yükleme İşlemi</th>
+    </tr>
+    <tr>
+        <td><h6>Ana Resim</h6><img src="@Html.DisplayFor(x=>x.Img1Path)" style="width:125px;height:100px" /></td>
+        <td>@Html.ActionLink("Sil", "DeleteImage", new { id = Html.DisplayFor(x => x.ID), imageID = 1 }, new { @class = "btn btn-danger" })</td>
+        <td>
+            @using (Html.BeginForm("UploadImage", "Admin", new { id = Html.DisplayFor(x => x.ID), imageID = 1 }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="Img1Path" class="form-control" />
+                <button class="btn btn-info">Yükle</button>
+            }
+        </td>
+    </tr>
+    @*<tr>
+        <td><h6>Ana Resim</h6><img src="@Html.DisplayFor(x=>x.Img2Path)" style="width:125px;height:100px" /></td>
+        <td>@Html.ActionLink("Sil", "DeleteImage", new { id = Html.DisplayFor(x => x.ID), imageID = 2 }, new { @class = "btn btn-danger" })</td>
+        <td>
+            @using (Html.BeginForm("UploadImage", "Admin", new { id = Html.DisplayFor(x => x.ID), imageID = 2 }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="Img1Path" class="form-control" />
+                <button class="btn btn-info">Yükle</button>
+            }
+        </td>
+    </tr>
+    <tr>
+        <td><h6>Ana Resim</h6><img src="@Html.DisplayFor(x=>x.Img3Path)" style="width:125px;height:100px" /></td>
+        <td>@Html.ActionLink("Sil", "DeleteImage", new { id = Html.DisplayFor(x => x.ID), imageID = 3 }, new { @class = "btn btn-danger" })</td>
+        <td>
+            @using (Html.BeginForm("UploadImage", "Admin", new { id = Html.DisplayFor(x => x.ID), imageID = 3 }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="Img1Path" class="form-control" />
+                <button class="btn btn-info">Yükle</button>
+            }
+        </td>
+    </tr>
+    <tr>
+        <td><h6>Ana Resim</h6><img src="@Html.DisplayFor(x=>x.Img4Path)" style="width:125px;height:100px" /></td>
+        <td>@Html.ActionLink("Sil", "DeleteImage", new { id = Html.DisplayFor(x => x.ID), imageID = 4 }, new { @class = "btn btn-danger" })</td>
+        <td>
+            @using (Html.BeginForm("UploadImage", "Admin", new { id = Html.DisplayFor(x => x.ID), imageID = 4 }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="Img1Path" class="form-control" />
+                <button class="btn btn-info">Yükle</button>
+            }
+        </td>
+    </tr>
+    <tr>
+        <td><h6>Ana Resim</h6><img src="@Html.DisplayFor(x=>x.Img5Path)" style="width:125px;height:100px" /></td>
+        <td>@Html.ActionLink("Sil", "DeleteImage", new { id = Html.DisplayFor(x => x.ID), imageID = 5 }, new { @class = "btn btn-danger" })</td>
+        <td>
+            @using (Html.BeginForm("UploadImage", "Admin", new { id = Html.DisplayFor(x => x.ID), imageID = 5 }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="Img1Path" class="form-control" />
+                <button class="btn btn-info">Yükle</button>
+            }
+        </td>
+    </tr>*@
+</table>
+

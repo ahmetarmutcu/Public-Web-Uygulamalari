@@ -1,0 +1,47 @@
+﻿@model EntityLayer.Concrete.Setting
+@{
+    ViewBag.Title = "EditSetting";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Ayar Düzenlenme</h2>
+@using (Html.BeginForm("EditSetting", "Admin", FormMethod.Post))
+{
+    <div class="form-group">
+
+        @Html.Label("Seo Açıklama")
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+        @Html.Label("Seo Kelimeler")
+        @Html.TextBoxFor(x => x.Keyword, new { @class = "form-control" })
+        @Html.Label("Instagram Url")
+        @Html.TextBoxFor(x => x.InstgramUrl, new { @class = "form-control" })
+        @Html.Label("Facebook Url")
+        @Html.TextBoxFor(x => x.FacebookUrl, new { @class = "form-control" })
+        @*@Html.Label("Twitter Url")
+        @Html.TextBoxFor(x => x.TwitterUrl, new { @class = "form-control" })
+        @Html.Label("Google Url")
+        @Html.TextBoxFor(x => x.TwitterUrl, new { @class = "form-control" })
+        @Html.Label("Youtube Url")
+        @Html.TextBoxFor(x => x.TwitterUrl, new { @class = "form-control" })
+        @Html.Label("Sabit Telefon")
+        @Html.TextBoxFor(x => x.FixedPhone, new { @class = "form-control" })*@
+        @Html.Label("Cep Telefonu")
+        @Html.TextBoxFor(x => x.TelephonePhone, new { @class = "form-control" })
+        @Html.Label("Çalışma Saati")
+        @Html.TextBoxFor(x => x.WorkingHouse, new { @class = "form-control" })
+        @*@Html.Label("İl")
+        @Html.TextBoxFor(x => x.Province, new { @class = "form-control" })
+        @Html.Label("İlçe")
+        @Html.TextBoxFor(x => x.District, new { @class = "form-control" })
+        @Html.Label("Adres")
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+        @Html.Label("Google Maps Url")
+        @Html.TextBoxFor(x => x.GoogleMaps, new { @class = "form-control" })*@
+        @Html.Label("Hakkında Başlık")
+        @Html.TextBoxFor(x => x.AboutHeading, new { @class = "form-control" })
+        @Html.Label("Hakkında İçerik")
+        @Html.TextBoxFor(x => x.AboutContent, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Düzenle</button>
+    </div>
+}
+

@@ -1,0 +1,23 @@
+﻿@using EntityLayer.Concrete
+@model List<Product>
+<div id="tab-latest" class="tab-content">
+    <div class="box">
+        <div id="latest-slidertab" class="row owl-carousel product-slider">
+            @foreach (var item in Model)
+            {
+                <div class="item">
+                    <div class="product-thumb transition">
+                        <div class="image product-imageblock">
+                            <a href="/Home/ProductDetailByCategoryID/@item.ID"><img src="@item.Img1Path" alt="@item.Name" title="@item.Name" class="img-responsive" style="width:280px;height:373px"> </a>
+                        </div>
+                        <div class="caption product-detail">
+                            <h4 class="product-name"><a href="/Home/ProductDetailByCategoryID/@item.ID" title="@item.Name">@item.Name</a></h4>
+                            @*<p class="price product-price">@item.Price</p>*@
+                            <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

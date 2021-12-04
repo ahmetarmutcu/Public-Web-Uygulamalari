@@ -1,0 +1,70 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewBag.Title = "ProductDetailByCategoryID";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <ul class="breadcrumb">
+        <li><a href="/Home/Index"><i class="fa fa-home"></i></a></li>
+        <li><a href="/Home/ProductByCategoryID">Ürünler</a></li>
+    </ul>
+    <div class="row">
+        @Html.Action("LeftProductCategory", "Home")
+        <div id="content" class="col-sm-9">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="thumbnails">
+                        <div><a class="thumbnail" href="/Home/ProductDetailByCategoryID/@Html.DisplayFor(x=>x.ID)" title="@Html.DisplayFor(x=>x.Name)"><img src="@Html.DisplayFor(x=>x.Img1Path)" title="@Html.DisplayFor(x=>x.Name)" alt="@Html.DisplayFor(x=>x.Name)"></a></div>
+                        @*<div id="product-thumbnail" class="owl-carousel">
+
+                                @if (@Html.DisplayFor(x => x.Img2Path) != null)
+                                {
+                                    <div class="item">
+                                        <div class="image-additional"><a class="thumbnail  " href="@Html.DisplayFor(x => x.Img2Path)" title="@Html.DisplayFor(x=>x.Name)"> <img src="@Html.DisplayFor(x => x.Img2Path)" style="width:120px;height:120px" title="@Html.DisplayFor(x=>x.Name)" alt="@Html.DisplayFor(x=>x.Name)"></a></div>
+                                    </div>
+                                }
+
+                                @if (@Html.DisplayFor(x => x.Img3Path) != null)
+                                {
+                                    <div class="item">
+                                        <div class="image-additional"><a class="thumbnail  " href="@Html.DisplayFor(x => x.Img3Path)" title="@Html.DisplayFor(x=>x.Name)"> <img src="@Html.DisplayFor(x => x.Img3Path)" style="width: 120px; height: 120px" title="@Html.DisplayFor(x=>x.Name)" alt="@Html.DisplayFor(x=>x.Name)"></a></div>
+                                    </div>
+                                }
+                                @if (@Html.DisplayFor(x => x.Img4Path) != null)
+                                {
+                                    <div class="item">
+                                        <div class="image-additional"><a class="thumbnail  "href="@Html.DisplayFor(x => x.Img4Path)" title="@Html.DisplayFor(x=>x.Name)"> <img src="@Html.DisplayFor(x => x.Img4Path)" style="width: 120px; height: 120px" title="@Html.DisplayFor(x=>x.Name)" alt="@Html.DisplayFor(x=>x.Name)"></a></div>
+                                    </div>
+                                }
+                                @if (@Html.DisplayFor(x => x.Img5Path) != null)
+                                {
+                                    <div class="item">
+                                        <div class="image-additional"><a class="thumbnail  " href="@Html.DisplayFor(x => x.Img5Path)" title="@Html.DisplayFor(x=>x.Name)"> <img src="@Html.DisplayFor(x => x.Img5Path)" style="width:120px;height:120px" title="@Html.DisplayFor(x=>x.Name)" alt="@Html.DisplayFor(x=>x.Name)"></a></div>
+                                    </div>
+                                }
+                            </div>*@
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="productpage-title">@Html.DisplayFor(x => x.Name)</h1>
+                    <div class="rating product">
+                        <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+                        <hr>
+                    </div>
+                    @*<ul class="list-unstyled productinfo-details-top">
+                            <li>
+                                <h2 class="productpage-price">@Html.DisplayFor(x=>x.Price)</h2>
+                            </li>
+                        </ul>*@
+                    <!--<hr>-->
+                    <p class="product-desc">
+                        @Html.DisplayFor(x => x.Content)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

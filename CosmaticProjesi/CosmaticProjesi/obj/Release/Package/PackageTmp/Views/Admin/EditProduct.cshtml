@@ -1,0 +1,25 @@
+﻿@model EntityLayer.Concrete.Product
+@{
+    ViewBag.Title = "EditProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2>Ürün Güncelleme Sayfası</h2>
+@using (Html.BeginForm("EditProduct", "Admin", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Ürün Adı")
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        <br />
+        @Html.Label("Ürün Bilgisi")
+        @Html.TextBoxFor(x => x.Content, new { @class = "form-control" })
+        @*<br />
+        @Html.Label("Ürün Fiyatı")
+        @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })*@
+        <br />
+        @Html.Label("Kategori")
+        @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+}
+

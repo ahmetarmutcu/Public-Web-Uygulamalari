@@ -1,0 +1,68 @@
+﻿@model EntityLayer.Concrete.Contact
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <ul class="breadcrumb">
+        <li><a href="/Home/Index"><i class="fa fa-home"></i></a></li>
+        <li><a href="/Home/Contact">Biz  Kimiz</a></li>
+    </ul>
+    <div class="row">
+        <div class="col-sm-12" id="content">
+            @if (ViewBag.Message != null)
+            {
+                <script type="text/javascript">
+                window.onload = function () {
+                alert("@ViewBag.Message");
+                };
+                </script>
+
+            }
+            @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+            {
+                <div class="form-horizontal">
+                    <fieldset>
+                        <h3>İletişim Formu</h3>
+                        <div class="form-group required">
+                            <label for="input-name" class="col-sm-2 control-label">Adınız  Soyadınız</label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.Username)
+                            </div>
+                        </div>
+                        <div class="form-group required">
+                            <label for="input-email" class="col-sm-2 control-label">E-Mail Adresiniz</label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(x => x.UserMail, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.UserMail)
+                            </div>
+                        </div>
+                        <div class="form-group required">
+                            <label for="input-enquiry" class="col-sm-2 control-label">Mesaj</label>
+                            <div class="col-sm-10">
+                                @Html.TextAreaFor(x => x.Message, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(x => x.Message)
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="buttons">
+                        <div class="pull-right">
+                            <input id="contact" type="submit" value="Gönder" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+@if (TempData["ContactMessage"] != null)
+{
+    <script type="text/javascript">
+        window.onload = function () {
+            alert("Mesaj başarıyla iletildi.");
+        };
+    </script>
+}

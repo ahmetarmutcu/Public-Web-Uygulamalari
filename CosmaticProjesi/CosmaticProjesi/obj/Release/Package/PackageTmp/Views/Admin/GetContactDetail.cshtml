@@ -1,0 +1,52 @@
+﻿@model EntityLayer.Concrete.Contact
+@{
+    ViewBag.Title = "GetContactDetail";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<body class="hold-transition sidebar-mini">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Gelen Mesaj Detayları</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                @Html.Action("ContactPartialLeftMenu", "Admin")
+                <div class="col-md-9">
+                    <div class="card card-primary card-outline">
+                        <div class="card-header">
+                            <h3 class="card-title">Mesaj Bilgisi</h3>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <div class="mailbox-read-info">
+
+                                <h5>Konu: @Html.DisplayFor(x => x.Subject)</h5>
+                                <br />
+                                <h6>
+                                    Kişi:@Html.DisplayFor(x => x.Username)
+                                </h6>
+                                <h6>
+                                    Mail:@Html.DisplayFor(x => x.UserMail)
+                                </h6>
+                            </div>
+                            <div class="mailbox-read-message">
+                                <p>@Html.DisplayFor(x => x.Message)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+

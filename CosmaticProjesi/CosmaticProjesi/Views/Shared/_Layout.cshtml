@@ -1,0 +1,120 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @Html.Action("TitlePartial", "Home")
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="e-commerce site well design with responsive view.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="~/Content/_Layout/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/_Layout/script/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/_Layout/css/stylesheet.css" rel="stylesheet" />
+    <link href="~/Content/_Layout/css/responsive.css" rel="stylesheet" />
+    <link href="~/Content/_Layout/css/javascript/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/_Layout/css/javascript/owl.transitions.css" rel="stylesheet" />
+    <script src="~/Content/_Layout/script/jquery-2.1.1.min.js"></script>
+    <script src="~/Content/_Layout/script/bootstrap.min.js"></script>
+    <script src="~/Content/_Layout/script/jstree.min.js"></script>
+    <script src="~/Content/_Layout/script/template.js"></script>
+    <script src="~/Content/_Layout/script/common.js"></script>
+    <script src="~/Content/_Layout/script/global.js"></script>
+    <script src="~/Content/_Layout/script/owl.carousel.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="top-left pull-left">
+                        </div>
+                        <div class="top-right pull-right">
+                            <div id="top-links" class="nav pull-right">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-inner">
+                <div class="col-sm-4 col-xs-6 header-left">
+                    <div class="shipping">
+                        <div class="shipping-img"></div>
+                        @Html.Action("LeftHeaderPartial", "Home")
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-6 header-middle">
+                    <div class="header-middle-top">
+                        <div id="logo"> <a href="https://www.hommbitkisel.com.tr/yeni-kayit/HOMM141472322"><img src="~/Content/_Layout/img/Logo/logo.png" title="Cosmatic" alt="Cosmatic" class="img-responsive"></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav id="menu" class="navbar">
+        <div class="nav-inner container">
+            <div class="navbar-header">
+                <span id="category" class="visible-xs">Menüler</span>
+                <button type="button" class="btn btn-navbar navbar-toggle"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="main-navigation">
+                    <li>@Html.ActionLink("Anasayfa", "Index", "Home") </li>
+                    <li>@Html.ActionLink("Ürünler", "ProductByCategoryID", "Home") </li>
+                    <li>@Html.ActionLink("Hakkımızda", "About", "Home")</li>
+                    <li>@Html.ActionLink("İletişim", "Contact", "Home") </li>
+                    <li><a href="https://www.hommbitkisel.com.tr/yeni-kayit/HOMM141472322">Üye Ol</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-top-cms" style="border-bottom:none">
+                    <div class="col-sm-3 footer-block">
+                        <h5 class="footer-title">Bilgi</h5>
+                        <ul class="list-unstyled ul-wrapper">
+                            <li><a href="/Home/About/">Hakkında</a></li>
+                            <li><a href="https://www.hommbitkisel.com.tr/yeni-kayit/HOMM141472322">Üye Ol</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 footer-block">
+                        <h5 class="footer-title">Müşteri Servisi</h5>
+                        <ul class="list-unstyled ul-wrapper">
+                            <li><a href="/Home/Contact">İletişim</a></li>
+                            <li><a href="/Home/ProductByCategoryID/">Ürünler</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 footer-block">
+                        <div class="content_footercms_right">
+                            <div class="footer-contact">
+                                <h5 class="contact-title footer-title">İletişim</h5>
+                                <ul class="ul-wrapper">
+                                    @Html.Action("FooterAddressPartial", "Home")
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-social">
+                            <h5>Sosyal Medya</h5>
+                            <ul>
+                                @Html.Action("SocialMediaPartial", "Home")
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a id="scrollup">Yukarı</a>
+    </footer>
+</body>
+</html>
